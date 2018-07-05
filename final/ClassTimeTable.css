@@ -1,0 +1,34 @@
+table,th,td{
+	border: 1px solid black;
+	border-collapse: collapse;
+
+}
+table{
+	width:88%;
+	margin-left: auto;
+	margin-right: auto;
+	
+
+}
+th,td{
+	width: 10px;
+	height: 30px;
+	text-align: center;
+}
+.med{
+	background-color: yellow;
+}
+
+.eng{
+	background-color: lightgreen;
+}
+
+.com{
+	background-color: lightblue;
+}
+.mgt{
+	background-color: lightgrey;
+}
+h2{
+	color:red;
+}

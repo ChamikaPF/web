@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learning Management Systems</title>
+	<link rel="stylesheet" type="text/css" href="finalStyle.css">
+  <link rel="stylesheet" type="text/css" href="EventCal.css">
+  <link src="EventCal.js" type="text/javascript" >
+  <link rel="stylesheet" type="text/css" href="sos.css">
+  <link src="finalJava.js" type="text/javascript" >
+  <script type="text/javascript" src="time.js"></script>
+  <script type="text/javascript" src="calendar.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script type="text/javascript">
+  function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+}
+function myFunction2() {
+    var popup = document.getElementById("myPopup2");
+    popup.classList.toggle("show");
+}
+function myFunction3() {
+    var popup = document.getElementById("myPopup3");
+    popup.classList.toggle("show");
+}
+</script>
+</head>
+<body onload="startTime()">
+    <div id="container">
+        <div id="header">
+        	<div id="image">
+    			<img id="img" src="1111.jpg" name="pic">
+    		<div id="image2">
+    			<img id="img2" src="222.png" name="pic2">
+    		</div>
+        </div>
+       </div>
+        <div id="upNavB">        <!-- upper navigation bar--> 
+    	    <ul>
+    	   <li><a href="index.php">Home</a></li>
+              <li><a href="news.html">News</a></li>
+              <li><a href="sport.html">Sports</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+        </div>  
+        <div id="content">  
+        <div id="leNavB">        <!-- left navigation bar-->
+        	 <button class="tablinks" onclick="window.location.href='Faculties.html'">Faculties</button>
+             <button class="tablinks" onclick="window.location.href='StudentHandbook.html'" >Student Handbook</button>
+             <button class="tablinks" onclick="window.location.href='ExamTimeTable.html'">Examination Time Tables</button>
+             <button class="tablinks" onclick="window.location.href='ClassTimeTable.html'">Class Time Tables</button>
+             <button class="tablinks" onclick="window.location.href='Regulations.html'">Regulations</button>
+             <button class="tablinks" onclick="window.location.href='EventCal.html'">Event Calender</button>
+              <button class="tablinks" onclick="window.location.href='Submission.html'">Assignment Submission</button>
+        </div>
+        <div id="middle">
+                  <h1>Event Calendar</h1>
+                  <center><h2>2017-August</h2></center>
+        	 <table id="tbl1" border="0.5" cellpadding="15" align="center">
+                <tr id="Weeks" >
+                  <td>Sun</td>
+                  <td>Mon</td>
+                  <td>Tue</td>
+                  <td>Wed</td>
+                  <td>Thu</td>
+                  <td>Fri</td>
+                  <td>Sat</td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td><div class="popup" onclick="myFunction()">5
+                    <span class="popuptext" id="myPopup">Medical Test</span>
+                  </div></td>
+                  <td>6</td>
+                  <td>7</td>
+                </tr>
+                <tr>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+                  <td>14</td>
+                </tr>
+                <tr>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
+                  <td><div class="popup" onclick="myFunction2()">18
+                    <span class="popuptext" id="myPopup2">Sport Meet</span></td></div>
+                  <td>19</td>
+                  <td>20</td>
+                  <td>21</td>
+                </tr>
+                <tr>
+                  <td>22</td>
+                  <td>23</td>
+                  <td>24</td>
+                  <td>25</td>
+                  <td>26</td>
+                  <td>27</td>
+                  <td>28</td>
+                </tr>
+                <tr>
+                  <td><div class="popup" onclick="myFunction3()">29
+                    <span class="popuptext" id="myPopup3">Science Day</span></td></div>
+                  <td>30</td>
+                  <td>31</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+
+            </table>
+        </div>
+
+
+  <div id="riNavB" >
+  
+  <div id="txt1"></div><!--Clock-->
+    <div id="cal">
+    <script>writeCalendar()</script><!--Clendar-->
+    
+</div>
+</div>
+
+<div id="footer"><br>Copyright @ university of cambridge No:-The Old Schools, Trinity Ln, Cambridge CB2 1TN, UK <br>Telephone:+44 (0)1223 333308 &nbsp; Fax:+44 (0)1223 746868  &nbsp; Email:admissions@cam.ac.uk
+<br>
+<center>
+<a href="https://www.facebook.com/cambridge.university" class="fa fa-facebook"></a>
+<a href="https://www.twitter.com/cambridge_uni" class="fa fa-twitter"></a>
+<a href="https://www.youtube.com/cambridgeuniversity" class="fa fa-youtube"></a>
+<a href="https://www.cam.ac.uk/linkedin" class="fa fa-linkedin"></a>
+</center></div>
+
+</body>
+</html>

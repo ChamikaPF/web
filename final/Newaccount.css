@@ -1,0 +1,80 @@
+body{
+    font-size: 13pt;
+    font-family: Arial;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button, input[type=submit], input[type=reset]{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 12px 20px;    
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: Arial;
+}
+
+input[type=reset], button{
+    background-color:red;
+}
+a{
+    text-decoration: none;
+}
+.Account{
+    width: 100%;
+    padding-top: 30px;
+    color: black;
+    text-decoration: none;
+    padding: 12px 20px;
+    background-color: #f44336;
+}
+
+
+.background{
+    background: url(111.jpg) no-repeat;
+    border: 1px solid white;
+    border-bottom-color:#002e4d; 
+}
+
+div.transbox {
+    margin-top:1%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    width: 80%;
+    height: auto;
+    background-color: #ffffff;
+    opacity: 0.7;
+    
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+.background1{
+    padding-left: 33%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    }
+.contact{
+    margin-top:0%;
+    background-color: #002e4d;
+    color: white;
+    font-family: Arial;
+    font-size: 12pt;
+    padding-top: 20px;
+    padding-left:20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.position{
+    padding-left: 30%;
+}

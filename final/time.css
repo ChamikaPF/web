@@ -1,0 +1,42 @@
+#txt1{
+    transform: translate(-180%);
+    color: black;
+    font-size: 50px;
+    font-family:tahoma, sans-serif; 
+    padding-right: 100px;
+}
+
+@media only screen and (max-width: 1000px){
+    #txt1{
+        font-size: 15px;
+    }
+
+     
+
+.fa {
+  padding: 500px;
+  font-size: 25px;
+  color:white;
+  width: 18px;
+  text-align: left;
+  text-decoration: none;
+  margin: 2px 4px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
